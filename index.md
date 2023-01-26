@@ -62,7 +62,7 @@ public void testAverageWithoutLowestSuccess() {
 
 For the symptom, here is the output of running these two tests. <br/>
 ![test output](test-output.png)
-The bug here is that the method discards all lowest values, including duplicates, when it should just be discarding a single value. In order to fix this, we are going to keep track if we have discarded a value yet, and once we have discarded a value, we will include all other values in the sum.
+<br/>The bug here is that the method discards all lowest values, including duplicates, when it should just be discarding a single value. In order to fix this, we are going to keep track if we have discarded a value yet, and once we have discarded a value, we will include all other values in the sum.
 
 Before (with error):
 
